@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# PyInstaller & Build artifacts
+build/
+dist/
+*.spec
+
+# Application runtime database and exports
+data/*.db
+data/*.db-wal
+data/*.db-shm
+exports/*.xlsx
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
